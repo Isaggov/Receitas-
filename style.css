@@ -114,36 +114,7 @@ nav .close-icon{
  flex-direction: column;
   gap: 32px;
 }
-.fazendas .fazendas-text{
-  width:67%;
-  padding: 0 30px;
-  }
-.fazendas .fazendas-text h3{
-  font-size: 41px;
-  text-align: center;
-  color: black;
-}
-.fazendas .fazendas-text li{
-  margin: 4%  0%;
-  color: black;
-}
-.fazendas .fazendas-text ol{
- text-align: justify;
-  width: 100%;
-}
-.fazendas .fazendas-text p{
-  margin: 4%  0%;
-  color: black;
-}
-  .fazendas .fazendas-img{
-    text-align: center;
-  }
-.fazendas .fazendas-img img{
-  
-  width: 100%;
-  border-radius: 20px;
-  
-}
+
 /* footer*/
 .final{
   background-color: #4d0e21;
