@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Montserrat' , sans-serif;
+}
+body{
+  background-color: rgba(32, 92, 66, 0.19);
+  background-color: #9db19e;
+}
+section,footer{
+  padding: 50px 0;
+}
+h3{
+  font-size: 50px;
+}
+p{
+  color: rgb(255, 255, 255);
+}
+.contudo{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding:0 5%;
+  gap: 32px;
+}
+.btn{
+  background-color: rgb(78, 142, 99);
+  color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.1s;
+}
+
+header{
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+  padding-top: 30px;
+
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav ul a{
+  color: #ffffff;
+  margin:0 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+}
+nav ul a:not(.btn)::after{
+  content: "";
+  background-color: #ffffff;
+  height: 3px;
+  width:0%;
+  display: block;
+  margin: 0 auto;
+  transition:0.3s;
+}
+nav ul a:hover::after{
+  width: 100%;
+}
+/* menu */
+nav .menu-icon{
+  cursor:pointer;
+  font-size: 25px;
+  color: #ffffff;
+  display: none;
+}
+nav .close-icon{
+  display: none;
+  font-size: 30px;
+  color: #ffffff;
+}
+.banner{
+  display: flex;
+  justify-content: center;
+}
+.banner .banner-text{
+  margin: 150px;
+  text-align: center;
+  padding: 0 32px;
+}
+.banner .banner-text h1{
+  font-size: 70px;
+  color: #ffffff;
+}
+.banner .banner-text p{
+  font-size: 17px;
+  color: white;
+  font-weight: lighter;
+  margin:15px 0 ;
+}
+/*faca mais*/
+.fazendas .contudo{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background-color: #9db19e;
+ flex-direction: column;
+  gap: 32px;
+}
+.fazendas .fazendas-text{
+  width:67%;
+  padding: 0 30px;
+  }
+.fazendas .fazendas-text h3{
+  font-size: 41px;
+  text-align: center;
+  color: black;
+}
+.fazendas .fazendas-text li{
+  margin: 4%  0%;
+  color: black;
+}
+.fazendas .fazendas-text ol{
+ text-align: justify;
+  width: 100%;
+}
+.fazendas .fazendas-text p{
+  margin: 4%  0%;
+  color: black;
+}
+  .fazendas .fazendas-img{
+    text-align: center;
+  }
+.fazendas .fazendas-img img{
+  
+  width: 100%;
+  border-radius: 20px;
+  
+}
+/* footer*/
+.final{
+  background-color: #415848;
+  text-align: center;
+}
+.final i{
+  color: #415848;
+  font-size: 19px;
+  background-color: white;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 10px;
+}
+.final p{
+ margin-top: 10px;
+ color:#ffffff;
+}
+/* pagina sobre*/
+.sobre .contudo{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background-color: #9db19e;
+ flex-direction: column;
+  gap: 32px;
+}
+.sobre .sobre-texto{
+  width:67%;
+  padding: 0 30px;
+  border-radius: 20px;
+}
+.sobre .sobre-texto h3{
+  font-size: 41px;
+}
+.sobre .sobre-texto p{
+  margin: 3% 0;
+  color: black;
+}
+.sobre .sobre-img{
+  text-align: center;
+}
+.sobre .sobre-img img{
+  width: 60%;
+  border-radius: 20px;
+  
+}
+/* pagina curiosidades* */
+
+.curio .contudo{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background-color: #9db19e;
+ flex-direction: column;
+  gap: 32px;
+ 
+}
+.curio .curi-texto{
+  width:67%;
+  padding: 0 30px;
+  border-radius: 20px;
+}
+.curio.curi-texto h3{
+  font-size: 45px;
+}
+.curio .curi-texto p{
+  margin: 9px 0px 8px 0;
+  color: black;
+}
+.curio .curi-img{
+  display: flex;
+  width: 38%;
+  align-items: center;
+}
+.curio .curi-img img{
+  width: 100%;
+  border-radius: 20px;
+
+}
+.curio .curi-mapa{
+    display: flex;
+    width: 100%;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+   }
+    
+.contato{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.contato .direito{
+ display: flex;
+  width:45%;
+  padding:31px;
+  background-color: #415848;
+  border-radius: 20px;
+  margin-right: -5px;
+  height: fit-content;
+  flex-direction: column;
+}
+.contato .direito div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contato .direito  h2{
+  color: #ffffff;
+}
+.contato .direito  a img{
+  color: #ffffff;
+  font-size: 24px;
+  margin-right:20px ;
+  flex-direction: column;
+}
+.contato .direito  a{
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+
+}
+.contato .esquerdo{
+  width: 45%;
+}
+.contato .esquerdo input{
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  height: 45px;
+  border-radius: 16px;
+  padding-left: 18px;
+  border: 1px solid #ffffff;
+  color: black;
+} 
+.contato .esquerdo textarea{
+  width: 45%;
+}
+.contato .esquerdo textarea{
+  border: 1px solid #ffffff;
+  color: black;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 15px;
+  width: 100%;
+  resize: none;
+}
+.contato .esquerdo button{
+border: none;
+cursor: pointer;
+}
+.referencias{
+ text-align: center;
+ color: black;
+ background-color: #798f7b;
+}
+.referencias p{
+  color: black;
+}
+@media(max-width:847px){
+  .ul{
+    position: fixed;
+    top:0 ;
+    left: 0;
+    background: #415848 ;
+    width:100% ;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    clip-path: circle(0% at 100% 0);
+    transition:0.5s;
+  }
+  .ul.open{
+    clip-path: circle(141.4% at 100% 0);
+  }
+  .ul a{
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  nav .menu-icon{
+    display: block;
+    
+  }
+  nav .close-icon{
+    display: block;
+    position:absolute ;
+    top: 72px;
+    right: 52px;
+  }
+  .fazendas .contudo {
+    flex-wrap: wrap-reverse;
+  }
+  .fazendas .fazendas-text {
+    width: 100%;
+  }
+  .fazendas .fazendas-img {
+    width:100%;
+  }
+  .sobre .contudo{
+    flex-wrap: wrap-reverse;
+  }
+  .sobre .sobre-texto{
+    width: 100%;
+  }
+  .sobre .sobre-img{
+    width: 100%;
+  }
+   .curio .contudo{
+    flex-wrap: wrap-reverse;
+  }
+  .curio.curi-text{
+    width: 100%;
+  }
+  .curio .curi-img{
+    width: 100%;
+  }
+  .curio .curi-mapa{
+    width: 100%
+  }
+ .contato .esquerdo{
+  width: 100%;
+ }
+ .contato .direito{
+  width: 100%;
+ }
+ .contudo .contato{
+  flex-direction: column;
+ }
+}
