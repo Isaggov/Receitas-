@@ -26,9 +26,7 @@ p{
   padding:0 5%;
   gap: 32px;
 }
-imagem.contudo{
-    width: 30px;
-}
+
 .btn{
   background-color: rgb(97, 71, 73);
   color: #ffffff;
@@ -118,9 +116,7 @@ nav .close-icon{
     text-align: center;
     width: 35px;
 }
-.receitas .card .img{
 
-}
 .receita-card {
       display: flex;
       align-items: stretch;
