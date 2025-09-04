@@ -72,6 +72,15 @@ nav ul a:not(.btn)::after{
 nav ul a:hover::after{
   width: 100%;
 }
+nav a img{
+      height: 3px;
+  width:0%;
+  display: block;
+  margin: 0 auto;
+  transition:0.3s;
+
+
+}
 /* menu */
 nav .menu-icon{
   cursor:pointer;
