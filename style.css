@@ -133,74 +133,10 @@ nav .close-icon{
  color:#ffffff;
 }
 /* pagina sobre*/
-.sobre .contudo{
-  display: flex;
-  align-items:center;
-  justify-content: center;
-  background-color:  #e2a5aa;
- flex-direction: column;
-  gap: 32px;
-}
-.sobre .sobre-texto{
-  width:67%;
-  padding: 0 30px;
-  border-radius: 20px;
-}
-.sobre .sobre-texto h3{
-  font-size: 41px;
-}
-.sobre .sobre-texto p{
-  margin: 3% 0;
-  color: black;
-}
-.sobre .sobre-img{
-  text-align: center;
-}
-.sobre .sobre-img img{
-  width: 60%;
-  border-radius: 20px;
-  
-}
+
 /* pagina curiosidades* */
 
-.curio .contudo{
-  display: flex;
-  align-items:center;
-  justify-content: center;
-  background-color:  #e2a5aa;
- flex-direction: column;
-  gap: 32px;
- 
-}
-.curio .curi-texto{
-  width:67%;
-  padding: 0 30px;
-  border-radius: 20px;
-}
-.curio.curi-texto h3{
-  font-size: 45px;
-}
-.curio .curi-texto p{
-  margin: 9px 0px 8px 0;
-  color: black;
-}
-.curio .curi-img{
-  display: flex;
-  width: 38%;
-  align-items: center;
-}
-.curio .curi-img img{
-  width: 100%;
-  border-radius: 20px;
 
-}
-.curio .curi-mapa{
-    display: flex;
-    width: 100%;
-    border-radius: 20px;
-    align-items: center;
-    justify-content: center;
-   }
     
 .contato{
   display: flex;
