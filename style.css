@@ -106,8 +106,15 @@ nav .close-icon{
   margin:15px 0 ;
 }
 /*faca mais*/
+.card{
+    display:flex;
+    justify-content: center;
 
-
+}
+.receitas .card{
+    background-color: #e2a5aa;
+    
+}
 /* footer*/
 .final{
   background-color: #4d0e21;
