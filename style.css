@@ -113,7 +113,10 @@ nav .close-icon{
 }
 .receitas .card{
     background-color: #e2a5aa;
-    
+    margin: 25px;
+    border-radius: 14px;
+    text-align: center;
+    width: 35px;
 }
 /* footer*/
 .final{
