@@ -121,6 +121,71 @@ nav .close-icon{
 .receitas .card .img{
 
 }
+.receita-card {
+      display: flex;
+      align-items: stretch;
+      max-width: 900px;
+      margin: 40px auto;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Imagem da receita */
+    .receita-card img {
+      width: 50%;
+      object-fit: cover;
+      border-radius: 12px 0 0 12px;
+    }
+
+    /* Área de texto */
+    .receita-info {
+      background-color: #fff8f3;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 50%;
+    }
+
+    .receita-info h4 {
+      color: #6b3a00;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .receita-info h2 {
+      font-size: 26px;
+      font-weight: bold;
+      color: #e63922;
+      margin: 0 0 15px 0;
+    }
+
+    .receita-info p {
+      font-size: 16px;
+      color: #3d2b1f;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+    /* Botão */
+    .receita-info .btn {
+      background-color: #e63922;
+      color: #fff;
+      border: none;
+      border-radius: 25px;
+      padding: 12px 25px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+
+    .receita-info .btn:hover {
+      background-color: #c22e1c;
+    }
 /* footer*/
 .final{
   background-color: #4d0e21;
